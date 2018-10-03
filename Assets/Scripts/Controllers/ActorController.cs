@@ -5,7 +5,7 @@ using UnityEngine.AI;
 [RequireComponent(typeof(Collider))]
 public abstract class ActorController : MonoBehaviour
 {
-    protected NavMeshAgent agent;
+    public NavMeshAgent agent;
 
     [SerializeField]
     protected Color baseColor = Color.blue;
@@ -18,7 +18,7 @@ public abstract class ActorController : MonoBehaviour
 
     public OnActorTagged onActorTagged;
 
-    public bool IsTagged { get; protected set; }
+    public bool IsTagged { get; set; }
 
     // Use this for initialization
     protected virtual void Start()

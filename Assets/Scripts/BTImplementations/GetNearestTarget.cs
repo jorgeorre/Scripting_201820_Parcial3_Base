@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class GetNearestTarget : MonoBehaviour {
 
+
+    [SerializeField]
+
+    
 	// Use this for initialization
 	void Start () {
+
+
 		
 	}
 	

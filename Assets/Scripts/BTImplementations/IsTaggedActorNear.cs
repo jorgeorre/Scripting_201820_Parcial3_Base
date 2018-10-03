@@ -5,7 +5,7 @@
 public class IsTaggedActorNear : Selector
 {
     [SerializeField]
-    private float acceptableDistance = 0F;
+    private float acceptableDistance = 5F;
 
     protected override bool CheckCondition()
     {

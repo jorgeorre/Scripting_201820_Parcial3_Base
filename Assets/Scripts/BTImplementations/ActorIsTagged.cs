@@ -3,8 +3,12 @@
 /// </summary>
 public class ActorIsTagged : Selector
 {
+    public bool isTagged = false;
+
     protected override bool CheckCondition()
+
     {
+        if 
         return base.CheckCondition();
     }
 }

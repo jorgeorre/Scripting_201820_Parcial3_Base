@@ -12,9 +12,14 @@
     {
         bool result = CheckCondition();
 
-        if (result)
+        foreach (Node node in children)
         {
-            result = base.Execute();
+            result = result || node.Execute();
+
+            if (ShouldBreak(result))
+            {
+                break;
+            }
         }
 
         return result;
