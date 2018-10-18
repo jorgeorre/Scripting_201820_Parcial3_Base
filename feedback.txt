@@ -1,0 +1,14 @@
+Feedback
+
+Examen (0.2/5.0)
+ * Error de compilación en FleeFromTarget.cs
+ * Error de ejecución en GameController.cs al intentar instanciar los AI. Pasaste el arreglo vacío. No puedo probar la implementación.
+ * No puedo configurar el tiempo de juego a través del GameController.
+ * No puedo configurar la cantidad de jugadores a través del GameController. (puedo hacerlo parcialmente, pero toca configurar el arreglo a mano.) (0.2)
+ * Ninguno de los nodos del BT está implementado.
+
+Bonificación (0.0º/0.5)
+Compensación : 1.0
+Reducción por no subir bien a GitHub: -0.5
+
+Total: 0.7 /5.0
